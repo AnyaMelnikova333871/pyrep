@@ -36,3 +36,4 @@ class CalcTest(TestCase):
         self.assertEqual(calc_ctg(45), 1)
 
 CalcTest()
+#
