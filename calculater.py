@@ -45,7 +45,7 @@ def calc_sin(x):
 
 def calc_cos(x):
     c = math.cos(math.radians(x))
-    return round(c, 2)
+    return round(c, 3)
 
 
 def calc_tg(x):
@@ -57,7 +57,7 @@ def calc_tg(x):
         return None
     else:
         c = math.tan(math.radians(x))
-        return round(c)
+        return round(c, 3)
 
 
 def calc_ctg(x):
@@ -65,7 +65,7 @@ def calc_ctg(x):
         return None
     else:
         c = 1 / (math.tan(math.radians(x)))
-        return round(c)
+        return round(c, 3)
 
 
 if __name__=="__main__":
