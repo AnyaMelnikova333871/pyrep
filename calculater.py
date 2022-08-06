@@ -3,37 +3,36 @@ import math
 def calc_plus(a, b):
     c = a + b
     return c
-    pass
 
 def calc_minus(a, b):
     c = a - b
     return c
-    pass
+
 
 def calc_del(a, b):
     c = a / b
     return c
-    pass
+
 
 def calc_mnozh(a, b):
     c = a * b
     return c
-    pass
+
 
 def calc_get(a, n):
     c = a ** n
     return c
-    pass
+
 
 def calc_square(a):
     c = a ** 2
     return c
-    pass
+
 
 def calc_sqrt(a):
     c = math.sqrt(a)
     return c
-    pass
+
 
 def calc_sin(x):
     '''
@@ -42,12 +41,12 @@ def calc_sin(x):
     '''
     c = math.sin(math.radians(x))
     return round(c, 3)
-    pass
+
 
 def calc_cos(x):
     c = math.cos(math.radians(x))
     return round(c, 2)
-    pass
+
 
 def calc_tg(x):
     '''
@@ -59,7 +58,7 @@ def calc_tg(x):
     else:
         c = math.tan(math.radians(x))
         return round(c)
-    pass
+
 
 def calc_ctg(x):
     if calc_sin(math.radians(x)) == 0:
@@ -67,7 +66,7 @@ def calc_ctg(x):
     else:
         c = 1 / (math.tan(math.radians(x)))
         return round(c)
-    pass
+
 
 if __name__=="__main__":
     print(calc_sin(30))
